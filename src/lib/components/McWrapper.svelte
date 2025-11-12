@@ -10,11 +10,9 @@
 </script>
 
 
-/*
 <ExternalLinkWrapper
   {...props}
   domain="MermaidChart.com"
   isVisible={env.isEnabledMermaidChartLinks}>
   {@render children()}
 </ExternalLinkWrapper>
-*/
