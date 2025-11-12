@@ -8,8 +8,9 @@
     children,
     ...props
   }: Omit<ComponentProps<typeof ExternalLinkWrapper>, 'isVisible' | 'domain'> = $props();
-</script>
 */
+</script>
+
 
 /*
 <ExternalLinkWrapper
