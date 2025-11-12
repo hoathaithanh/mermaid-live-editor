@@ -100,7 +100,7 @@
         Live Editor
       </a>
 
-/*      <McWrapper>
+<!--      <McWrapper>
         <div class="hidden items-center justify-center gap-4 md:flex">
           <Separator orientation="vertical" />
           <Switch
@@ -128,7 +128,7 @@
           </a>
         </div>
       </McWrapper>
-*/
+ -->
     </div>
   </div>
   <div
