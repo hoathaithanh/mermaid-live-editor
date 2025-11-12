@@ -140,7 +140,7 @@
 <!--    <DropdownNavMenu icon={GithubIcon} links={githubLinks} />  -->
 
 <!-- Thêm link đến VETS -->
-    <span class="text-xl font-bold text-primary">Power by VETS</span>
+    <span class="text-xl font-bold text-[#3b5998]">Power by VETS</span>
 <a
   href="https://vets.energy/"
   target="_blank"
