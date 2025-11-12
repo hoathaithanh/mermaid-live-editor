@@ -33,17 +33,19 @@
 
   type Links = ComponentProps<typeof DropdownNavMenu>['links'];
 
-  const githubLinks: Links = [
+/*  const githubLinks: Links = [
     { title: 'Mermaid JS', href: 'https://github.com/mermaid-js/mermaid' },
     {
       title: 'Mermaid Live Editor',
       href: 'https://github.com/mermaid-js/mermaid-live-editor'
     },
-    {
+*/  
+/*  {
       title: 'Mermaid CLI',
       href: 'https://github.com/mermaid-js/mermaid-cli'
     }
   ];
+*/
 
   let activePromotion = $state(getActivePromotion());
 
@@ -98,7 +100,7 @@
         Live Editor
       </a>
 
-      <McWrapper>
+/*      <McWrapper>
         <div class="hidden items-center justify-center gap-4 md:flex">
           <Separator orientation="vertical" />
           <Switch
@@ -126,6 +128,7 @@
           </a>
         </div>
       </McWrapper>
+*/
     </div>
   </div>
   <div
