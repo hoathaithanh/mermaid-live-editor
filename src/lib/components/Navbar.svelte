@@ -22,6 +22,8 @@
   import GithubIcon from '~icons/mdi/github';
   import DropdownNavMenu from './DropdownNavMenu.svelte';
 
+
+
   interface Props {
     mobileToggle?: Snippet;
     children: Snippet;
@@ -134,7 +136,19 @@
   <div
     id="menu"
     class="hidden flex-nowrap items-center justify-between gap-3 overflow-hidden md:flex">
-    <DropdownNavMenu icon={GithubIcon} links={githubLinks} />
+
+<!--    <DropdownNavMenu icon={GithubIcon} links={githubLinks} />  -->
+
+<!-- Thêm link đến VETS -->
+    <span class="text-xl font-bold text-primary">Power by VETS</span>
+<a
+  href="https://vets.energy/"
+  target="_blank"
+  rel="noopener"
+  class="flex items-center gap-2 p-2 rounded hover:bg-muted"
+  title="Visit VETS Energy">
+</a>
+
     <Separator orientation="vertical" />
     {@render children()}
   </div>
