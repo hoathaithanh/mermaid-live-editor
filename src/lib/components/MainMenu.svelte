@@ -31,32 +31,36 @@
   const menuItems: MenuItem[] = $derived([
     { label: 'New', icon: AddIcon, href: $urlsStore.new, renderer: menuItem },
     { label: 'Duplicate', icon: DuplicateIcon, href: window.location.href, renderer: menuItem },
-    {
+/* khóa MenuItem
+  {
       href: $urlsStore.mermaidChart({ medium: 'main_menu' }).playground,
       icon: PlaygroundIcon,
       isSectionEnd: true,
       label: 'Edit in Playground',
       renderer: mcMenuItem
     },
-    {
+*/
+/*    {
       label: 'Mermaid.js',
       icon: MermaidTailIcon,
       href: 'https://mermaid.js.org/',
       renderer: menuItem
     },
-    {
+*/
+   {
       label: 'Documentation',
       icon: BookIcon,
       href: 'https://mermaid.js.org/intro/',
       renderer: menuItem
     },
-    {
+/*    {
       label: 'Community',
       icon: CommunityIcon,
       href: 'https://discord.gg/sKeNQX4Wtj',
       renderer: menuItem
     },
-    {
+*/
+/*   {
       checkDiagramType: false,
       href: $urlsStore.mermaidChart({ medium: 'main_menu' }).plugins,
       icon: PluginIcon,
@@ -64,6 +68,7 @@
       renderer: mcMenuItem,
       sharesData: false
     },
+*/
     {
       href: '#',
       icon: ContrastIcon,
