@@ -140,13 +140,14 @@
 <!--    <DropdownNavMenu icon={GithubIcon} links={githubLinks} />  -->
 
 <!-- Thêm link đến VETS -->
-    <span class="text-xl font-bold text-[#3b5998]">Power by VETS</span>
 <a
   href="https://vets.energy/"
   target="_blank"
   rel="noopener"
-  class="flex items-center gap-2 p-2 rounded hover:bg-muted"
-  title="Visit VETS Energy">
+  title="Visit VETS Energy"
+  class="text-2xl font-bold font-sans text-[#3b5998] hover:underline transition-all duration-200"
+>
+  Power by VETS
 </a>
 
     <Separator orientation="vertical" />
