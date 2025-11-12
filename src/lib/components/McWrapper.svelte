@@ -3,12 +3,10 @@
   import type { ComponentProps } from 'svelte';
   import ExternalLinkWrapper from './ExternalLinkWrapper.svelte';
 
-/*
   let {
     children,
     ...props
   }: Omit<ComponentProps<typeof ExternalLinkWrapper>, 'isVisible' | 'domain'> = $props();
-*/
 </script>
 
 
